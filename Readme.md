@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Nika Bityukova](https://up.htmlacademy.ru/htmlcss/19/user/569247).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Распономарев](https://up.htmlacademy.ru/htmlcss/19/user/64492)
 
 ---
 
