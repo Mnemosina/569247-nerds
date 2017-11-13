@@ -24,12 +24,21 @@
 			<aside class="catalog-left-column">
 				<form action="" method="post">
 					<h3 class="catalog-filter-title">Стоимость:</h3>
+					<div class="catalog-filter-line"></div>
+					<div class="catalog-price-contl">
+						<div class="catalog-contrl-left">
+							<input type="text" name="disabled">
+						</div>
+						<div class="catalog-contrl-right">
+							<input type="text" name="disabled">
+						</div>
+					</div>
 					<h3 class="catalog-filter-title">Сетка:</h3>
 					<input type="radio" name="grid" value="adaptive" id="adaptive" checked>
 					<label class="catalog-label" for="adaptive">Адаптивная</label>
 					<input type="radio" name="grid" value="fix" id="fix">
 					<label class="catalog-label" for="fix">Фиксированния</label>
-					<input type="radio" name="grid" value="rubber" inputmode="rubber">
+					<input type="radio" name="grid" value="rubber" id="rubber">
 					<label class="catalog-label" for="rubber">Резиновая</label>
 					<h3 class="catalog-filter-title">Особенности:</h3>
 					<input type="checkbox" name="slider" id="slider" checked>
@@ -52,8 +61,8 @@
 					<a href="#">По типу</a>
 					<a href="#">По названию</a>
 					<div class="catalog-arrows">
-						<a href="#"></a>
-						<a href="#"></a>
+						<a href="#" class="catalog-arrows-down">Дешевле</a>
+						<a href="#" class="catalog-arrows-up">Дороже</a>
 					</div>
 				</div>
 				<div class="catalog-block">
@@ -163,24 +172,24 @@
 			</div>
 		</div>
 	</footer>
-	<div class="feedback">
+<div class="feedback">
 			<h2 class="feedback-title">Напишите нам</h2>
 			<form action="feedback" method="post">
 				<div class="feedback-left-cloumn">
 					<label class="feedback" for="feedback-name">Ваше имя:</label>
-					<input type="text" name="name" placeholder="Представьтесь, пожалуйста" required>
+					<input type="text" name="name" placeholder="Представьтесь, пожалуйста" id="feedback-name" required>
 				</div>
 				<div class="feedback-right-cloumn">
 					<label class="feedback-data" for="feedback-email">Ваш e-mail</label>
-					<input type="email" name="email" placeholder="Для отправки ответа" required>
+					<input type="email" name="email" placeholder="Для отправки ответа" id="feedback-email" required>
 				</div>
 				<label class="feedback-data" for="feedback-textarea">Текст письма:</label>
-				<textarea name="text" placeholder="В свободной форме" required></textarea>
-			</form>
-			<div class="feedback-block">
-				<a href="#" class="btn">Отправить</a>
-			</div>
+				<textarea name="text" placeholder="В свободной форме" id="feedback-textarea" required></textarea>
+				<div class="feedback-block">
+					<button type="submit" class="btn">Отправить</button>
+				</div>
 			<a href="#" class="feedback-cross-btn"></a>
+			</form>
 		</div>
 </body>
 </html>
