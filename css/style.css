@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, Arial, sans-serif;
+}
+
+header {
+	background-color: #eeeeee;
+}
+
+
+/*Тут стили*/
+
+.main-menu-header a {
+	font-size: 16px;
+	text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    line-height: 30px;
+}
+
+.main-slider-title {
+	font-size: 55px;
+	line-height: 55px;
+}
+
+.main-slider-info,
+.features-item-info,
+.detail-info,
+.detail-list li {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.features-item-title {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.detail-title {
+	font-size: 45px;
+	line-height: 45px;
+}
+
+.detail-info-right,
+.detail-info-left {
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.detail-info-num {
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.detail-info-title {
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.map-block-title {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.map-block-info {
+	font-size: 16px;
+	line-height: 28px;
+	color: #666666;
+}
+
+.footer-title {
+	font-size: 36px;
+	line-height: : 36px;
+	font-weight: bold;
+}
+
+.footer-info {
+	font-size: 16px;
+	line-height: 22px;
+	color: #444444;
+}
+
+.catalog-filter-title,
+.catalog-item-link {
+	font-size: 18px;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.catalog-sorting-title {
+	font-size: 18px;
+	line-height: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/*Почему не работает то?
+.catalog-sorting-title a {
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+}*/
+
+.catalog-item-info {
+	font-size: 16px;
+	line-height: 18px;
+	color: #666666;
+}
