@@ -17,11 +17,13 @@ header {
     text-transform: uppercase;
     color: #000000;
     line-height: 30px;
+    font-weight: 500;
 }
 
 .main-slider-title {
 	font-size: 55px;
 	line-height: 55px;
+	font-weight: 500;
 }
 
 .main-slider-info,
@@ -35,11 +37,13 @@ header {
 .features-item-title {
 	font-size: 24px;
 	line-height: 30px;
+	font-weight: 700;
 }
 
 .detail-title {
 	font-size: 45px;
 	line-height: 45px;
+	font-weight: 500;
 }
 
 .detail-info-right,
@@ -47,12 +51,12 @@ header {
 	font-size: 16px;
 	line-height: 24px;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .detail-info-num {
 	font-size: 45px;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .detail-info-title {
@@ -63,7 +67,7 @@ header {
 .map-block-title {
 	font-size: 18px;
 	line-height: 30px;
-	font-weight: bold;
+	font-weight: 700;
 	text-transform: uppercase;
 }
 
@@ -75,8 +79,8 @@ header {
 
 .footer-title {
 	font-size: 36px;
-	line-height: : 36px;
-	font-weight: bold;
+	line-height: 36px;
+	font-weight: 700;
 }
 
 .footer-info {
@@ -90,22 +94,21 @@ header {
 	font-size: 18px;
 	line-height: 30px;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .catalog-sorting-title {
 	font-size: 18px;
 	line-height: 18px;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: 700;
 }
 
-/*Почему не работает то?
-.catalog-sorting-title a {
+.catalog-sorting a {
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
-}*/
+}
 
 .catalog-item-info {
 	font-size: 16px;
