@@ -113,5 +113,25 @@ header {
 .catalog-item-info {
 	font-size: 16px;
 	line-height: 18px;
-	color: #666666;
+	color: #8a8a8a;
+}
+
+.catalog-label {
+	color: #283136;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.btn {
+	padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    background-color: #fb565a;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
