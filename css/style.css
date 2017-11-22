@@ -20,7 +20,8 @@ header {
     font-weight: 500;
 }
 
-.main-slider-title {
+.main-slider-title,
+.catalog-title {
 	font-size: 55px;
 	line-height: 55px;
 	font-weight: 500;
@@ -38,6 +39,7 @@ header {
 	font-size: 24px;
 	line-height: 30px;
 	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .detail-title {
@@ -95,6 +97,8 @@ header {
 	line-height: 30px;
 	text-transform: uppercase;
 	font-weight: 700;
+	color: #000000;
+	text-decoration: none;
 }
 
 .catalog-sorting-title {
@@ -134,4 +138,40 @@ header {
     line-height: 18px;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: 500;
+}
+
+.features-item-btn {
+	text-transform: uppercase;
+	font-weight: 500;
+	padding-top: 12px;
+    padding-bottom: 11px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.features-btn-mobile {
+	background-color: #00ca74;
+}
+
+.features-btn-presentation {
+	background-color: #efc84a;
+}
+
+.feedback-title {
+	font-size: 45px;
+	line-height: 45px;
+	font-weight: 500;
+}
+
+.feedback,
+.feedback-data {
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 700;
+}
+
+.catalog-sorting a {
+	color: #000000;
+	text-decoration: none;
 }
