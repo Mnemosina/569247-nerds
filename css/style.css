@@ -11,7 +11,8 @@ header {
 
 /*Тут стили*/
 
-.main-menu-header a {
+.main-menu-header a,
+.main-menu a {
 	font-size: 16px;
 	text-decoration: none;
     text-transform: uppercase;
