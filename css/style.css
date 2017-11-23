@@ -175,3 +175,19 @@ header {
 	color: #000000;
 	text-decoration: none;
 }
+
+.btn-catalog {
+    padding-left: 50px;
+    padding-right: 42px;
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.catalog-item-btn,
+.map-btn {
+	font-size: 18px;
+    line-height: 18px;
+}
+
