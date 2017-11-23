@@ -186,7 +186,8 @@ header {
 }
 
 .catalog-item-btn,
-.map-btn {
+.map-btn,
+.feedback-btn {
 	font-size: 18px;
     line-height: 18px;
 }
