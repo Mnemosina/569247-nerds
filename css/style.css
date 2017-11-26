@@ -288,3 +288,7 @@ header {
 	justify-content: space-between;
 
 }
+
+.features-item-info {
+	width: 300px;
+}
