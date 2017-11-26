@@ -8,24 +8,31 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 </head>
 <body>
+
+<!--Шапка-->
 	<header>
-		<div class="main-menu">
+		<div class="main-menu container clearfix">
 			<img class="main-logo" src="img/nerds-logo.svg" height="70" width="160" alt="Logo">
 			<nav class="main-menu-header">
-			<ul>
-				<li><a href="#">Студия</a></li>
-				<li><a href="#">Клиенты</a></li>
-				<li><a href="#">Магазин</a></li>
-				<li><a href="#">Контакты</a></li>
-			</ul>
-			<div class="main-basket"><a href="#">Корзина</a></div>
+				<ul class="list-menu-header">
+					<li><a href="#">Студия</a></li>
+					<li><a href="#">Клиенты</a></li>
+					<li><a href="#">Магазин</a></li>
+					<li><a href="#">Контакты</a></li>
+					<li class="main-basket"><a href="#">Корзина</a></li>
+				</ul>
+			</nav>
 		</div>
-		<div class="main-slider">
+<!--Шапка-->
+
+<!--Слайдер-->
+		<div class="main-slider container clearfix">
+			
 			<div class="slider-item">
 				<div class="main-slider-left">
 					<h2 class="main-slider-title">Долго, дорого, скрупулезно.</h2>
 					<p class="main-slider-info">Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
-					<a href="#" class="btn">Узнать больше</a>
+					<a href="#" class="slider-btn btn">Узнать больше</a>
 				</div>
 				<div class="main-slider-right">
 					<figure class="main-slider-figure">
@@ -33,22 +40,25 @@
 					</figure>
 				</div>
 			</div>
+			
 			<div class="slider-item">
 				<div class="main-slider-left">
 					<h2 class="main-slider-title">Любим математику как никто другой</h2>
 					<p class="main-slider-info">Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
-					<a href="#" class="btn">Узнать больше</a>
+					<a href="#" class="slider-btn btn">Узнать больше</a>
 				</div>
 				<div class="main-slider-right">
 					<figure class="main-slider-figure">
 						<img src="img/header-slide-2.png" height="430" width="663" alt="Slider">
 					</figure>
 				</div>
+			</div>
+			
 				<div class="slider-item">
 					<div class="main-slider-left">
 						<h2 class="main-slider-title">Только ночь, только хардкор</h2>
 						<p class="main-slider-info">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
-						<a href="#" class="btn">Узнать больше</a>
+						<a href="#" class="slider-btn btn">Узнать больше</a>
 					</div>
 					<div class="main-slider-right">
 						<figure class="main-slider-figure">
@@ -56,11 +66,15 @@
 						</figure>
 					</div>
 				</div>
-			</div>
+			
 		</div>
 	</header>
-	<main class="container">
+<!--Слайдер-->
+
+<!--Основная часть-->
+	<main class="main-container container clearfix">
 		<section class="features">
+		<div class="features-list">
 			<div class="features-item">
 				<figure class="features-item-img">
 					<img src="img/illustration-1.jpg" height="146" width="300" alt="pic">
@@ -81,6 +95,7 @@
 				<p class="features-item-info">Вы даже не подозреваете, насколько вы изумительны!</p>
 				<a href="#" class="btn features-item-btn features-btn-presentation">Заказать</a>
 			</div>
+		</div>
 
 			<div class="detail">
 				<div class="detail-left-column">
@@ -100,6 +115,7 @@
 						<img src="img/nerds-illustration.jpg" height="208" width="360" alt="pic">
 					</figure>
 					<p class="detail-info-right">С 2004 года любим точность во всем:</p>
+				<div class="info-stat">
 					<div class="detail-info-stat">
 						<p class="detail-info-num">146<sup>%</sup></p>
 						<p class="detail-info-title">Уровень самоотдачи</p>
@@ -113,8 +129,9 @@
 						<p class="detail-info-title">Минимальная предоплата</p>
 					</div>
 				</div>
+				</div>
 			</div>
-
+<!--Основная часть-->
 			<div class="brand">
 				<figure class="brand-item">
 					<a href="#">
@@ -138,18 +155,17 @@
 				</figure>
 			</div>
 		</section>
+		</main>
 		<footer>
 			<div class="map">
-				<div class="container">
 					<div class="map-block">
 						<h3 class="map-block-title">Nerds design studio</h3>
 						<p class="map-block-info">191186, Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
 						<p class="map-block-info">тел. +7 (812) 275-75-75</p>
-						<a href="feedback.html" class="btn map-btn">Напишите нам</a>
+						<a href="feedback.html" class="map-btn btn">Напишите нам</a>
 					</div>
-				</div>
 			</div>
-			<div class="footer-bottom">
+			<div class="footer-bottom container clearfix">
 				<div class="footer-left-column">
 					<a href="#">VK</a>
 					<a href="#">FB</a>
@@ -161,6 +177,9 @@
 				</div>
 			</div>
 		</footer>
+
+
+
 		<div class="feedback">
 			<h2 class="feedback-title">Напишите нам</h2>
 			<form action="feedback" method="post">
@@ -180,6 +199,5 @@
 			<a href="#" class="feedback-cross-btn"></a>
 			</form>
 		</div>
-	</main>
 </body>
 </html>
