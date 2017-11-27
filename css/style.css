@@ -11,6 +11,7 @@ header {
 .container {
     width: 1160px;
     margin: 0 auto;
+    pointer-events: none;
 }
 
 .clearfix::after {
@@ -195,6 +196,8 @@ header {
     outline: none;
     background-color: #f1f1f1;
     color: black;
+    width: 260px;
+    height: 50px;
 }
 
 .catalog-item-btn,
@@ -292,3 +295,58 @@ header {
 .features-item-info {
 	width: 300px;
 }
+
+.slider-item {
+	display: none;
+}
+
+.slider-item:nth-child(1) {
+  	display: flex;
+}
+
+.map-img {
+	position: absolute; 
+	padding: 0;
+	margin: 0;
+}
+
+.catalog-title {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+ .catalog-left-column form {
+ 	display: flex;
+ 	flex-direction: column;}
+
+.catalog {
+	display: flex;
+}
+
+ .catalog-block-first {display: flex;}
+
+ .catalog-sorting {
+ 	display: flex;
+ }
+
+.catalog-sorting-title {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 40px;
+	padding-right: 360px;
+}
+
+.catalog-sorting-list {
+	display: flex;
+}
+
+ .catalog-sorting-list a {
+    margin-top: 30px;
+    margin-bottom: 30px;
+	padding-right: 40px;
+ }
+
+ .catalog-filter-title {
+ 	margin-top: 25px;
+ }
