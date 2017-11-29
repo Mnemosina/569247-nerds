@@ -12,7 +12,7 @@ header {
 }
 
 .container {
-    min-width: 1160px;
+    width: 1160px;
     margin: 0 auto;
 }
 
@@ -311,8 +311,6 @@ header {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 60px;
-	padding-left: 140px;
-	padding-right: 110px;
 }
 
 .detail {
@@ -330,7 +328,6 @@ header {
 
 .brand {
 	display: flex;
-    margin-left: 130px;
     padding-bottom: 75px;
 }
 
@@ -363,9 +360,15 @@ header {
 }
 
 .map-img {
-	position: absolute; 
+	position: relative; 
 	padding: 0;
 	margin: 0;
+	z-index: 1;
+    border-width: 0px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .catalog-title {
@@ -375,7 +378,6 @@ header {
 }
 
 .detail-left-column {
-	margin-left: 140px;
 	margin-top: 120px;
 }
 
@@ -419,14 +421,37 @@ header {
  	margin-top: 25px;
  }
 
- .map.container {
+.map.container {
 	pointer-events: none; 
 	position: relative; 
 	z-index: 1;
 }
 .map-block {
-	pointer-events: all;
-	height: 308px;
-	width: 319px;
-	background: #ffffff;
+    position: absolute;
+    background: #ffffff;
+    width: 200px;
+    padding: 22px 20px 25px;
+    bottom: 70px;
+}
+
+.footer-btn {
+    position: relative;
+    margin-right: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    background: #e1e1e1;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-left-column {
+	display: flex;
+}
+
+.feedback {
+	display: none;
 }
