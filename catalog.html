@@ -8,7 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
 <body>
-	<header>
+	<header class="main-catalog">
 		<div class="main-menu container clearfix">
 			<img class="main-logo" src="img/nerds-logo.svg" height="70" width="160" alt="Logo">
 			<nav class="main-menu-header">
@@ -29,16 +29,21 @@
 			<aside class="catalog-left-column">
 				<form action="" method="post">
 					<h3 class="catalog-filter-title">Стоимость:</h3>
-					
-					<div class="catalog-filter-line"></div>
-					<div class="catalog-price-contl">
-						<div class="catalog-contrl-left">
-							<input type="text" name="disabled">
+
+					<div class="range-filter">
+						<div class="range-controls">
+							<div class="scale">
+								<div class="bar"></div>
+							</div>
+							<div class="toggle toggle-min"></div>
+							<div class="toggle toggle-max"></div>
 						</div>
-						<div class="catalog-contrl-right">
-							<input type="text" name="disabled">
+						<div class="price-controls">
+							<label class="min-price">от <input name="min-price" type="text" value="0"></label>
+							<label class="max-price">до <input name="max-price" type="text" value="15000"></label>
 						</div>
 					</div>
+
 					<h3 class="catalog-filter-title">Сетка:</h3>
 					<label class="catalog-label" for="adaptive">
 						<input type="radio" name="grid" value="adaptive" id="adaptive" checked>Адаптивная
@@ -49,7 +54,7 @@
 					<label class="catalog-label" for="rubber">
 						<input type="radio" name="grid" value="rubber" id="rubber">Резиновая
 					</label>
-					<h3 class="catalog-filter-title">Особенности:</h3>
+					<h3 class="catalog-filter-title features-title">Особенности:</h3>
 					<label class="catalog-label" for="slider">
 						<input type="checkbox" name="slider" id="slider" checked>Слайдер
 					</label>
@@ -82,7 +87,6 @@
 					</div>
 				</div>
 				<div class="catalog-block">
-					<div class="catalog-block-first">
 						<div class="catalog-item">
 							<figure class="catalog-img">
 								<img src="img/img-sedona.jpg" height="576" width="360" alt="picture">
@@ -107,8 +111,7 @@
 								<a href="#" class="catalog-item-btn btn">9900 руб.</a>
 							</div>
 						</div>
-					</div>
-					<div class="catalog-block-first">
+					
 						<div class="catalog-item">
 							<figure class="catalog-img">
 								<img src="img/img-barbershop.jpg" height="576" width="360" alt="picture">
@@ -133,8 +136,6 @@
 								<a href="#" class="catalog-item-btn btn">9900 руб.</a>
 							</div>
 						</div>
-					</div>
-					<div class="catalog-block-first">
 						<div class="catalog-item">
 							<figure class="catalog-img">
 								<img src="img/img-aplus.jpg" height="576" width="360" alt="picture">
@@ -159,7 +160,6 @@
 								<a href="#" class="catalog-item-btn btn">9900 руб.</a>
 							</div>
 						</div>
-					</div>
 				</div>
 				<div class="catalog-pages">
 					<span class="catalog-pages-active">1</span>
@@ -172,29 +172,30 @@
 	</main>
 
 	<footer>
+		<div class="map-img">
+			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A00a1647e9f06225e9757e52270e403e4ece3b0d8c0220fd57af50aeed6638a05&amp;width=100%&amp;height=416&amp;lang=ru_RU&amp;scroll=true"></script>
+		</div>
 		<div class="map container">
-			<div class="map-img">
-				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A00a1647e9f06225e9757e52270e403e4ece3b0d8c0220fd57af50aeed6638a05&amp;width=1280&amp;height=416&amp;lang=ru_RU&amp;scroll=true"></script>
-			</div>
 			<div class="map-block">
 				<h3 class="map-block-title">Nerds design studio</h3>
 				<p class="map-block-info">191186, Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
-				<p class="map-block-info">тел. +7 (812) 275-75-75</p>
+				<p class="map-block-info-phone">тел. +7 (812) 275-75-75</p>
 				<a href="feedback.html" class="map-btn btn">Напишите нам</a>
 			</div>
 		</div>
 		<div class="footer-bottom container clearfix">
 			<div class="footer-left-column">
-				<a href="#">VK</a>
-				<a href="#">FB</a>
-				<a href="#">IN</a>
+				<a href="#" class="footer-btn footer-btn-vk">VK</a>
+				<a href="#" class="footer-btn footer-btn-fb">FB</a>
+				<a href="#" class="footer-btn footer-btn-inst">IN</a>
 			</div>
 			<div class="footer-right-column">
-				<h3 class="footer-title">Давате дружить, это выгодно!</h3>
+				<h3 class="footer-title">Давайте дружить, это выгодно!</h3>
 				<p class="footer-info">Скидка 10% для друзей из социальных сетей</p>
 			</div>
 		</div>
 	</footer>
+
 	<div class="feedback">
 		<h2 class="feedback-title">Напишите нам</h2>
 		<form action="feedback" method="post">

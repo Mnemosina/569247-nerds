@@ -178,6 +178,8 @@ header {
 	line-height: 18px;
 	text-transform: uppercase;
 	font-weight: 700;
+	padding-top: 30px;
+    padding-left: 145px;
 }
 
 .catalog-sorting a {
@@ -196,6 +198,8 @@ header {
 	color: #283136;
 	font-size: 16px;
 	line-height: 20px;
+    margin-left: 70px;
+    margin-bottom: 20px;
 }
 
 .btn {
@@ -422,6 +426,7 @@ header {
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	padding-top: 78px;
 }
 
 .detail-left-column {
@@ -440,8 +445,6 @@ header {
 	margin-top: 105px;
     margin-right: 10px;
 }
-
- .catalog-block-first {display: flex;}
 
  .catalog-sorting {
  	display: flex;
@@ -465,7 +468,8 @@ header {
  }
 
  .catalog-filter-title {
- 	margin-top: 25px;
+ 	padding-top: 35px;
+    padding-left: 48px;
  }
 
 .map.container {
@@ -506,4 +510,112 @@ header {
 
 .footer-right-column {
 
+}
+
+.main-catalog {
+	height: 355px;
+}
+
+.range-filter {
+  width: 260px;
+  margin-top: 35px;
+  margin-left: 45px;
+}
+.range-controls {
+	position: relative;
+	margin-bottom: 15px;
+  height: 40px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+    padding-top: 39px;
+}
+
+.range-controls .scale {
+  height: 2px;
+
+  background: #d7dcde;
+}
+
+.range-controls .bar {
+  width: 70%;
+  height: 2px;
+
+  background: #00ca74;
+}
+
+.range-controls .toggle {
+	  position: absolute;
+  top: 31px;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  padding: 0;
+border-radius: 50%;
+  border: 8px solid #ffffff;
+  background-color: #ababab;
+   box-shadow: 0 2px 1px 0 #cfcfcf;
+   cursor: pointer;
+}
+
+.range-controls .toggle-min {
+  left: 50px;
+}
+
+.range-controls .toggle-max {
+  left: 110px;
+}
+
+.price-controls label {
+  display: inline-block;
+  width: 50%;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.price-controls {
+  font-size: 0;
+}
+
+.price-controls input {
+	border: none;
+	margin-left: 10px;
+  border-radius: 5px;
+  background: #f1f1f1;
+	width: 60px;
+  padding: 8px 10px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #283136;
+}
+
+.max-price {
+  text-align: right;
+}
+
+.features-title {
+	padding: 0;
+    margin-left: 45px;
+    margin-top: 25px;
+}
+
+.catalog-pages-active {
+	border: 2px solid #f2f2f2;
+    background-color: #fff;
+}
+
+.catalog-pages span,
+.catalog-pages a {
+	display: inline-block;
+    vertical-align: baseline;
+    padding: 11px 16px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    font-size: 12px;
+}
+
+.catalog-pages-next {
+	padding-left: 32px;
+    padding-right: 32px;
 }
