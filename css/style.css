@@ -201,17 +201,17 @@ a {
 }
 
 .slider-item:nth-child(1) {
-	background-image: url("file:///C:/Users/Milo/Desktop/569247-nerds/img/header-slide-1.png");
+	background-image: url("../img/header-slide-1.png");
 	background-position: 429px 13px;
 }
 
 .slider-item:nth-child(2) {
-	background-image: url("file:///C:/Users/Milo/Desktop/569247-nerds/img/header-slide-2.png");
+	background-image: url("../img/header-slide-2.png");
 	background-position: 494px 0;
 }
 
 .slider-item:nth-child(3) {
-	background-image: url("file:///C:/Users/Milo/Desktop/569247-nerds/img/header-slide-3.png");
+	background-image: url("../img/header-slide-3.png");
 	background-position: 401px 17px;
 }
 
@@ -269,19 +269,19 @@ a {
 }
 
 .features-item:nth-child(1) {
-	background-image: url("file:///C:/Users/Milo/Desktop/569247-nerds/img/illustration-1.jpg");
+	background-image: url("../img/illustration-1.jpg");
 	background-repeat: no-repeat;
 }
 
 .features-item:nth-child(2) {
-	background-image: url("file:///C:/Users/Milo/Desktop/569247-nerds/img/illustration-2.jpg");
+	background-image: url("../img/illustration-2.jpg");
 	background-repeat: no-repeat;
 }
 
 .features-item:nth-child(3) {
 	margin-right: 60px;
 
-	background-image: url("file:///C:/Users/Milo/Desktop/569247-nerds/img/illustration-3.jpg");
+	background-image: url("../img/illustration-3.jpg");
 	background-repeat: no-repeat;
 }
 
@@ -1114,12 +1114,12 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-arrows-down {
-	background-image: url("file:///C:/Users/Milo/Desktop/569247-nerds/img/icon-down-dir.svg");
+	background-image: url("../img/icon-down-dir.svg");
 }
 
 .catalog-arrows-up {
 	margin-left: 13px;
-	background-image: url("file:///C:/Users/Milo/Desktop/569247-nerds/img/icon-up-dir.svg");
+	background-image: url("../img/icon-up-dir.svg");
 }
 
 .catalog-arrows .arrow-active {
