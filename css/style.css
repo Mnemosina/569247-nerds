@@ -1228,11 +1228,6 @@ input[type="radio"].visually-hidden {
 	outline: none;
 }
 
-.feedback-title-block input:focus {
-	color: #e74246;
-	border-color: #e74246;
-}
-
 .feedback-title-block .feedback-btn {
 	padding: 16px 84px;
 }
