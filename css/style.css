@@ -1279,3 +1279,7 @@ input[type="radio"].visually-hidden {
 .feedback .close:active::after {
 	background-color: #ffeeee;
 }
+
+.modal-show {
+  display: block;
+}
