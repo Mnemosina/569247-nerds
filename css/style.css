@@ -71,6 +71,13 @@ a {
 	color: #000000;
 }
 
+.main-basket:hover,
+.main-basket:focus,
+.main-basket:focus,
+.main-basket:hover {
+	color: #fb565a;
+}
+
 .main-logo {
 	width: 160px;
 	height: 65px;
@@ -476,6 +483,7 @@ a {
 	font-size: 0;
 	margin: 0;
 	padding: 0;
+	margin: 0 -19px; 
 }
 
 .brand li {
