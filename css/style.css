@@ -523,16 +523,16 @@ a {
 }
 
 .footer-map .map-container {
-	position: relative; 
-	z-index: 1; 
+	position: relative;
+	z-index: 1;
 	pointer-events: none;
 }
 
 .map-img {
-	position: absolute; 
-	top: 0; 
-	left: 0; 
-	right: 0; 
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
 	bottom: 0;
 }
 
@@ -545,7 +545,7 @@ a {
 	width: 320px;
 	background-color: white;
 	padding-bottom: 48px;
-	pointer-events: all; 
+	pointer-events: all;
 }
 
 .footer-contacts h3 {
