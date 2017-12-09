@@ -522,7 +522,7 @@ a {
 	height: 420px;
 }
 
-.footer-map .container {
+.footer-map .map-container {
 	position: relative; 
 	z-index: 1; 
 	pointer-events: none;
@@ -536,13 +536,17 @@ a {
 	bottom: 0;
 }
 
+.map-container {
+	padding-top: 57px;
+}
+
 .footer-contacts {
 	z-index: 1;
 	width: 320px;
 	background-color: white;
 	padding-bottom: 48px;
 	pointer-events: all; 
-	padding-top: 56px;
+	margin-left: 93px;
 }
 
 .footer-contacts h3 {
@@ -584,7 +588,7 @@ a {
 
 .footer-info .footer-title {
 	margin: 0;
-	margin-top: 15px;
+	margin-top: 13px;
 	padding: 0;
 	font-size: 36px;
 	line-height: 36px;
