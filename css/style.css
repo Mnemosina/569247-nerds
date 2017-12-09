@@ -518,18 +518,31 @@ a {
 
 .footer-map {
 	vertical-align: top;
+	position: relative;
+	height: 420px;
+}
+
+.footer-map .container {
+	position: relative; 
+	z-index: 1; 
+	pointer-events: none;
+}
+
+.map-img {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0;
 }
 
 .footer-contacts {
 	z-index: 1;
 	width: 320px;
-	padding-bottom: 48px;
-	position: absolute;
-	margin-top: 55px;
 	background-color: white;
 	padding-bottom: 48px;
-	position: absolute;
-	margin-top: 55px;
+	pointer-events: all; 
+	padding-top: 56px;
 }
 
 .footer-contacts h3 {
