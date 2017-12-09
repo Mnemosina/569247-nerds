@@ -497,7 +497,7 @@ a {
 	transform: translateY(-50%);
 	width: 2px;
 	height: 52px;
-	background-color: #c3c3c3;
+	background-color: #eeeeee;
 }
 
 .brand li:last-child::after {
